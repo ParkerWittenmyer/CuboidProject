@@ -14,6 +14,11 @@ public class Cuboid<T extends Number>{
     public T width;
     public T height;
 
+    public Cuboid()
+    {
+        
+    }
+    
     public Cuboid(T length, T width, T height) {
         this.length = length;
         this.width = width;

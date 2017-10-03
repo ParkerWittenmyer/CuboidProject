@@ -20,6 +20,16 @@ public class CuboidProject {
         System.out.println(c1.toString());
         System.out.println(c1.getVolume());
         
+        
+        Cuboid c2 = new Cuboid();
+        c2.length = 5;
+        c2.width = 2;
+        c2.height = 3;
+        
+        System.out.println(c2.toString());
+        System.out.println(c2.getVolume());
+        
+        
     }
     
 }
